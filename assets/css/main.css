@@ -1654,3 +1654,9 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+		/* === フォントバランス調整用 === */
+		body {
+		font-family: "Noto Sans JP", "Source Sans Pro", sans-serif;
+		font-weight: 400;
+		}
