@@ -35,7 +35,10 @@ ol, ul {
 blockquote, q {
 	quotes: none;
 }
-
+.image::before {
+	background: none !important;
+  	content: none !important;
+}
 	blockquote:before, blockquote:after, q:before, q:after {
 		content: '';
 		content: none;
